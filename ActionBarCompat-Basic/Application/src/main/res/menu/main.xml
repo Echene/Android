@@ -32,7 +32,7 @@
     <item
         android:id="@+id/menu_refresh"
         android:icon="@drawable/ic_action_refresh"
-        android:title="Refresh"
+        android:title="@string/menu_refresh"
         support:showAsAction="ifRoom"/>
 
     <!-- Location item is added in onCreateOptionsMenu() -->
@@ -45,7 +45,7 @@
     <item
         android:id="@+id/menu_settings"
         android:icon="@drawable/ic_action_settings"
-        android:title="Settings"
+        android:title="@string/menu_settings"
         support:showAsAction="never"/>
 
 </menu>
